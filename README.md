@@ -1,4 +1,4 @@
-## Frontend structure 🏗
+## Frontend structure
 
 The main rule to follow: **Files from one module can only import from ancestor folders within the same module or from `src/shared`.** This makes the codebase easier to understand, and if you're fiddling with code in one module, you will never introduce a bug in another module.
 
